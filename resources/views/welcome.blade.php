@@ -36,9 +36,9 @@
             <h2 class="font-semibold">Certifications</h2>
             <a href="https://courses.edx.org/certificates/b918c3f6710b4c78a320989377ff668b">6.00.1x: Introduction to Computer Science and Programming Using Python</a>
             <br>
-            <a href="{{asset('/certs/bcs/dip_sdmeth_l4.pdf')}}">BCS Level 4 Diploma in Software Development Methodologies (603/0543/5)</a>
+            <a href="{{asset('/images/certs/bcs_dip_sdmeth_l4.pdf')}}">BCS Level 4 Diploma in Software Development Methodologies (603/0543/5)</a>
             <br>
-            <a href="{{asset('/certs/acelos_itil_foundation.pdf')}}">ITIL® 4 Foundation</a>
+            <a href="{{asset('/images/certs/acelos_itil_foundation.pdf')}}">ITIL® 4 Foundation</a>
         </div>
 
 
