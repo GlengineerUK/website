@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="22f981f3-580e-4d51-aad9-e8a4e90f38e6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -142,6 +145,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -162,7 +171,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606077239860</updated>
-      <workItem from="1606077241702" duration="1757000" />
+      <workItem from="1606077241702" duration="4353000" />
     </task>
     <servers />
   </component>
@@ -170,9 +179,9 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="943" y="317" width="672" height="678" key="search.everywhere.popup" timestamp="1606078990772">
+    <state x="943" y="317" width="672" height="678" key="search.everywhere.popup" timestamp="1606079150397">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="943" y="317" width="672" height="678" key="search.everywhere.popup/-2560.-128.2560.1410/-3640.-370.1080.1890/0.0.2560.1410@0.0.2560.1410" timestamp="1606078990772" />
+    <state x="943" y="317" width="672" height="678" key="search.everywhere.popup/-2560.-128.2560.1410/-3640.-370.1080.1890/0.0.2560.1410@0.0.2560.1410" timestamp="1606079150397" />
   </component>
 </project>
