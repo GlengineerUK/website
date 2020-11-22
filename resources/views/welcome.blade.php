@@ -15,14 +15,14 @@
                     <p class="text-xl">Junior Web Developer</p>
                     <a class="text-gray-600" href="https://www.instituteforapprenticeships.org/apprenticeship-standards/software-developer">Software Developer Apprenticeship Level 4 with distinction</a>
                     <div class="mt-1">
-                        <span class="bg-gray-700 text-gray-100 text-sm rounded rounded-lg px-2">HTML</span>
-                        <span class="bg-gray-700 text-gray-100 text-sm rounded rounded-lg px-2">CSS</span>
-                        <span class="bg-gray-700 text-gray-100 text-sm rounded rounded-lg px-2">JavaScript</span>
-                        <span class="bg-gray-700 text-gray-100 text-sm rounded rounded-lg px-2">PHP</span>
-                        <span class="bg-gray-700 text-gray-100 text-sm rounded rounded-lg px-2">Laravel</span>
-                        <span class="bg-gray-700 text-gray-100 text-sm rounded rounded-lg px-2">Livewire</span>
-                        <span class="bg-gray-700 text-gray-100 text-sm rounded rounded-lg px-2">Vue.js</span>
-                        <span class="bg-gray-700 text-gray-100 text-sm rounded rounded-lg px-2">Docker</span>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><span class="bg-gray-700 text-gray-100 text-sm rounded rounded-lg px-2">HTML</span></a>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><span class="bg-gray-700 text-gray-100 text-sm rounded rounded-lg px-2">CSS</span></a>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><span class="bg-gray-700 text-gray-100 text-sm rounded rounded-lg px-2">JavaScript</span></a>
+                        <a href="https://www.php.net/"><span class="bg-gray-700 text-gray-100 text-sm rounded rounded-lg px-2">PHP</span></a>
+                        <a href="https://laravel.com/"><span class="bg-yellow-700 text-gray-100 text-sm rounded rounded-lg px-2">Laravel</span></a>
+                        <a href="https://laravel-livewire.com/"><span class="bg-yellow-700 text-gray-100 text-sm rounded rounded-lg px-2">Livewire</span></a>
+                        <a href="https://vuejs.org/"><span class="bg-yellow-700 text-gray-100 text-sm rounded rounded-lg px-2">Vue.js</span></a>
+                        <a href="https://www.docker.com/"><span class="bg-blue-700 text-gray-100 text-sm rounded rounded-lg px-2">Docker</span></a>
                     </div>
 
                 </div>
