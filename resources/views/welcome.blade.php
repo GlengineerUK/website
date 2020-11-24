@@ -36,7 +36,7 @@
             </div>
         </section>
         {{--        <h1 class="mt-32 m-auto text-5xl font-semibold">Under construction</h1>--}}
-        <div class="flex flex-col items-center"
+        <div class="flex flex-col mb-16 items-center"
             x-data="{
             openTab: 1,
             activeClasses: 'underline cursor-default',
