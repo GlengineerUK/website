@@ -42,10 +42,10 @@
             activeClasses: 'underline cursor-default',
             inactiveClasses: 'hover:text-blue-700',
             }">
-            <div class="inline-flex my-8 font-semibold text-2xl">
+            <div class="flex flex-col sm:inline-flex sm:flex-row my-8 font-semibold text-2xl">
                 <a href="#" class="    " @click="openTab = 1" :class="openTab === 1 ? activeClasses : inactiveClasses">About me</a>
-                <a href="#" class="ml-8" @click="openTab = 2" :class="openTab === 2 ? activeClasses : inactiveClasses">Qualifications</a>
-                <a href="#" class="ml-8" @click="openTab = 3" :class="openTab === 3 ? activeClasses : inactiveClasses">Portfolio</a>
+                <a href="#" class="sm:ml-8" @click="openTab = 2" :class="openTab === 2 ? activeClasses : inactiveClasses">Qualifications</a>
+                <a href="#" class="sm:ml-8" @click="openTab = 3" :class="openTab === 3 ? activeClasses : inactiveClasses">Portfolio</a>
             </div>
 
             {{--        About me--}}
