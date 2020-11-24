@@ -8,9 +8,14 @@ module.exports = {
     ],
 
     theme: {
+
         extend: {
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+            },
+            height: {
+                '1\/2': '50vh',
+                '1\/3': '33vh',
             },
         },
     },
