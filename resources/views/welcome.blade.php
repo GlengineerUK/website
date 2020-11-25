@@ -7,15 +7,15 @@
 
 @section('content')
     <div class="flex flex-col w-full">
-        <section id="front-page" class="bg-gray-200 w-full">
-            <div class="flex items-center py-16 border-t border-b border-gray-300">
+        <div id="front-page" class="bg-gray-200 w-full">
+            <div class="flex flex-col sm:flex-row items-center  py-16 border-t border-b border-gray-300">
                 <div class="flex-1"></div>
                 <div id="left" class="flex-none">
                     <img src="{{asset('/images/profile/profile2.jpg')}}" alt="Picture of Glen's face"
                          class="rounded rounded-full h-32 w-32 ml-2 sm:h-48 sm:w-48 object-cover bg-gray-100 p-2 border border-gray-300"
                     >
                 </div>
-                <div id="right" class="ml-8">
+                <div id="right" class="ml-8 items-center">
                     <p class="text-4xl font-semibold">Glen Clark</p>
                     <p class="text-xl mt-2">Software Developer</p>
                     <a class="text-gray-600 mt-2" href="https://www.instituteforapprenticeships.org/apprenticeship-standards/software-developer">Software Developer Apprenticeship Level 4 with distinction</a>
@@ -34,9 +34,9 @@
                 </div>
                 <div class="flex-1"></div>
             </div>
-        </section>
+        </div>
         {{--        <h1 class="mt-32 m-auto text-5xl font-semibold">Under construction</h1>--}}
-        <div class="flex flex-col mb-16 items-center"
+        <div class="flex flex-col  mb-16 items-center"
             x-data="{
             openTab: 1,
             activeClasses: 'underline cursor-default',
@@ -49,10 +49,27 @@
             </div>
 
             {{--        About me--}}
-            <div class="mx-1 sm:mx-0 sm:w-3/4 xl:w-1/2 " x-show="openTab === 1">
-                <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet mi a sapien ullamcorper consectetur eu sed odio. Fusce ac semper sem. Curabitur porta, ligula nec tristique semper, ante lectus ultricies dui, ut venenatis neque quam euismod nunc. Nullam eget diam vitae justo dictum aliquam. Donec sollicitudin orci neque, a gravida est sodales at. Proin at hendrerit urna. Donec finibus metus felis. Vivamus urna nibh, euismod non leo id, cursus blandit ipsum. Vestibulum dignissim metus id mauris varius consectetur.</p>
+            <div class="mx-1 sm:mx-0 sm:w-3/4 xl:w-1/2 text-lg " x-show="openTab === 1">
+                <p>Hello,</p>
 
-                <p class="">Nullam eget vestibulum metus, quis pulvinar sapien. Sed hendrerit consectetur neque, et pharetra tellus facilisis ac. Aenean interdum efficitur mattis. Mauris pharetra quam sed vestibulum feugiat. Mauris et felis ac velit lobortis ullamcorper eu in arcu. Sed at felis nunc. Proin eget dignissim risus. Aenean aliquam et magna ac aliquet. Etiam viverra tempus pharetra. In in auctor lorem. Maecenas non mauris eros. Fusce facilisis nisi a sagittis tincidunt. Nunc vestibulum molestie mi, at scelerisque quam egestas ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu sem quis quam accumsan mattis at quis lectus.</p>
+                <p class="mt-2">I'm Glen, a software developer from the North West of England with a background in training.</p>
+                <p class="mt-2">I have two years’ professional experience in software development and recently achieved a pass with distinction on my Software Development Level 4 apprenticeship.</p>
+                <p class="mt-2">During this time, I have confidently operated at all stages of the software development life cycle:</p>
+                <ul class="list-disc ml-8 mt-2">
+                    <li>Assisting with project and feature feasibility studies</li>
+                    <li>Engaging with stakeholders to elicit requirements</li>
+                    <li>Designing models using UML</li>
+                    <li>Writing clean, maintainable code using paradigms such as MVC</li>
+                    <li>Creating comprehensive testing suites that include unit, integration and feature tests</li>
+                    <li>Configuring development resources, including setting up Linux web servers</li>
+                    <li>Supporting users via incident management tickets and change requests</li>
+                </ul>
+                <p class="mt-2">I comfortable setting up my own development environment, having created and documented a containerised Laravel development environment using docker. This was later adopted by my team as the standard dev environment for Laravel projects.</p>
+                <p class="mt-2">It’s rare a day goes by where I don’t spend at least an hour working on my professional development. Lately, I am progressing through the Web Development Screencasts at
+                    <a href="laracasts.com">Laracasts</a> as well as an online data science course from MITx at <a
+                        href="http://edx.com">edx.com</a>. I also enjoy watching talks from conferences such as GOTO, Laracon and many more.</p>
+                <p class="mt-2">I am a nerd through and through, when I am not writing code you will typically find me working on my computer, messing around with the latest tech, learning the latest tools to improve my skillset or playing strategy and simulation games. </p>
+                <p class="mt-2">Thanks for taking the time to look around my website. Feel free to look at my qualifications and projects using the tabs above.</p>
             </div>
 
 
