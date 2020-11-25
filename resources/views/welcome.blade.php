@@ -51,10 +51,8 @@
             {{--        About me--}}
             <div class="mx-1 sm:mx-0 sm:w-3/4 xl:w-1/2 text-lg " x-show="openTab === 1">
                 <p>Hello,</p>
-
-                <p class="mt-2">I'm Glen, a software developer from the North West of England with a background in training.</p>
-                <p class="mt-2">I have two years’ professional experience in software development and recently achieved a pass with distinction on my Software Development Level 4 apprenticeship.</p>
-                <p class="mt-2">During this time, I have confidently operated at all stages of the software development life cycle:</p>
+                <p class="mt-2">I'm Glen, a software developer based in England with a background in training.</p>
+                <p class="mt-2">I have two years’ professional experience, during which, I have confidently operated at all stages of the software development life cycle:</p>
                 <ul class="list-disc ml-8 mt-2">
                     <li>Assisting with project and feature feasibility studies</li>
                     <li>Engaging with stakeholders to elicit requirements</li>
@@ -62,13 +60,12 @@
                     <li>Writing clean, maintainable code using paradigms such as MVC</li>
                     <li>Creating comprehensive testing suites that include unit, integration and feature tests</li>
                     <li>Configuring development resources, including setting up Linux web servers</li>
-                    <li>Supporting users via incident management tickets and change requests</li>
+                    <li>Supporting users via incident management tickets, change requests and staff training & documentation</li>
                 </ul>
-                <p class="mt-2">I comfortable setting up my own development environment, having created and documented a containerised Laravel development environment using docker. This was later adopted by my team as the standard dev environment for Laravel projects.</p>
-                <p class="mt-2">It’s rare a day goes by where I don’t spend at least an hour working on my professional development. Lately, I am progressing through the Web Development Screencasts at
-                    <a href="laracasts.com">Laracasts</a> as well as an online data science course from MITx at <a
-                        href="http://edx.com">edx.com</a>. I also enjoy watching talks from conferences such as GOTO, Laracon and many more.</p>
-                <p class="mt-2">I am a nerd through and through, when I am not writing code you will typically find me working on my computer, messing around with the latest tech, learning the latest tools to improve my skillset or playing strategy and simulation games. </p>
+                <p class="mt-2">Recently, I achieved a <span class="italic font-semibold">pass with distinction</span> on my Software Development Level 4 apprenticeship. I completed two significant full-stack projects, from planning through to maintenance for my current employer. The first was a purchase order system to manage the companies purchase orders and improve visibility of spending, the second a configuration management tool to catalogue and improve the visibility of our retail stores' information.</p>
+                <p class="mt-2">I really enjoy learning new technologies and better ways to do things. Earlier this year, I containerised our Laravel development environment using docker and wrote the documentation required for it become the standard within our department.</p>
+                <p class="mt-2">A day rarely goes by where I don’t spend at least an hour working on my professional development. Lately, I am progressing through the Web Development Screencasts at Laracasts as well as an online data science course from MITx at edx.com. I also enjoy watching talks from conferences such as GOTO, Laracon and many more.</p>
+                <p class="mt-2">When I am not writing code, you will typically find me working on my computer, messing around with the latest development tools to improve my skillset or playing strategy and simulation games. Unless it’s game night, in which case I’ll be watching my favourite esports team, Fnatic.</p>
                 <p class="mt-2">Thanks for taking the time to look around my website. Feel free to look at my qualifications and projects using the tabs above.</p>
             </div>
 
