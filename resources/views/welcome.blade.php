@@ -21,7 +21,7 @@
                     <p class="text-xl">Software Developer</p>
                     <div class="mt-1 flex items-center text-gray-700">
                         <img src="{{ asset('images/icons/loc-icon.png') }}" alt="" class="h-4">
-                        <p class="text-lg ml-2 ">Lancashire, England</p>
+                        <p class="text-lg ml-2 ">North West, England</p>
                     </div>
                     <div class="-ml-1 mt-3 flex flex-wrap w-5/6">
                         <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><span class="bg-gray-700 text-gray-100 ml-1 text-sm rounded rounded-lg px-2">HTML</span></a>
