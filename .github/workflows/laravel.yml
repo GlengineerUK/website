@@ -31,3 +31,6 @@ jobs:
         DB_CONNECTION: sqlite
         DB_DATABASE: database/database.sqlite
       run: vendor/bin/phpunit
+    - name: Deploy to production
+      working-directory: /var/www/glen-clark.net
+      run: git pull
