@@ -18,7 +18,7 @@
                 </div>
                 <div id="right" class="ml-8 items-center">
                     <p class="text-4xl font-semibold">Glen Clark</p>
-                    <p class="text-xl">Software Developer</p>
+                    <p class="text-xl">Rockstar</p>
                     <div class="mt-1 flex items-center text-gray-700">
                         <img src="{{ asset('images/icons/loc-icon.png') }}" alt="" class="h-4">
                         <p class="text-lg ml-2 ">North West, England</p>
