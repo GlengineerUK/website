@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,9 +15,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    $projects = App\Models\Project::published()->get();
+    return view('welcome', ['projects' => $projects]);
+})->name('welcome');
+
+Route::resource('projects', ProjectController::class);
+Route::get('/projects/{project}/publish', [ProjectController::class, 'publish'])->name('projects.publish');
+Route::get('/projects/{project}/unpublish', [ProjectController::class, 'unpublish'])->name('projects.unpublish');
+
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
+    $projects = App\Models\Project::all();
+    return view('dashboard', ['projects' => $projects]);
 })->name('dashboard');

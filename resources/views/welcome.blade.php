@@ -3,18 +3,16 @@
 @section('scripts')
     <!-- Alpine -->
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
 @endsection
 
 @section('content')
-    <div class="flex flex-col w-full">
         <div id="front-page" class="bg-gray-200 w-full">
             <div class="flex flex-col sm:flex-row items-center  py-16 border-t border-b border-gray-300">
                 <div class="flex-1"></div>
                 <div id="left" class="flex-none">
-
                     <img src="{{asset('/images/profile/profile2.jpg')}}" alt="Picture of Glen's face"
-                         class="rounded rounded-full h-32 w-32 ml-2 sm:h-48 sm:w-48 object-cover bg-gray-100 p-2 border border-gray-300"
-                    >
+                         class="rounded rounded-full h-32 w-32 ml-2 sm:h-48 sm:w-48 object-cover bg-gray-100 p-2 border border-gray-300">
                 </div>
                 <div id="right" class="ml-8 items-center">
                     <p class="text-4xl font-semibold">Glen Clark</p>
@@ -38,10 +36,9 @@
                 <div class="flex-1"></div>
             </div>
         </div>
-        {{--        <h1 class="mt-32 m-auto text-5xl font-semibold">Under construction</h1>--}}
         <div class="flex flex-col  mb-16 items-center"
             x-data="{
-            openTab: 1,
+            openTab: 3,
             activeClasses: 'underline cursor-default',
             inactiveClasses: 'hover:text-blue-700',
             }">
@@ -51,7 +48,7 @@
                 <a href="#" class="sm:ml-8" @click="openTab = 3" :class="openTab === 3 ? activeClasses : inactiveClasses">Portfolio</a>
             </div>
             <div class="grid" style="grid-template-columns: 1fr min(93vw, 800px) 1fr;">
-                <div class="col-start-2">
+                <div class="col-start-2 text-lg">
                     <div x-show="openTab === 1">
                         @include('welcome.about-me')
                     </div>
@@ -62,7 +59,7 @@
                         @include('welcome.portfolio')
                     </div>
                 </div>
-            </div>
+
 
 
 {{--            <div class="mx-1 sm:mx-0 sm:w-3/4 lg:w-1/2 xl:w-1/3 text-lg " --}}

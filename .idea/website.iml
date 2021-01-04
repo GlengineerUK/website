@@ -125,9 +125,13 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/voku/portable-ascii" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/austintoddj/canvas" />
+      <excludeFolder url="file://$MODULE_DIR$/public/vendor/canvas" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="alpine" level="application" />
+    <orderEntry type="library" name="quill" level="application" />
+    <orderEntry type="library" name="quill.snow" level="application" />
   </component>
 </module>
