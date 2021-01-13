@@ -18,9 +18,6 @@
                     <x-jet-nav-link href="{{ route('welcome') }}" :active="request()->routeIs('welcome')">
                         {{ __('Site') }}
                     </x-jet-nav-link>
-                    <x-jet-nav-link href="{{ route('canvas.login') }}" :active="request()->routeIs('canvas.login')">
-                        {{ __('Blog') }}
-                    </x-jet-nav-link>
                 </div>
             </div>
 
