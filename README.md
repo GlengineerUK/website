@@ -1,23 +1,20 @@
 Personal website code.
 
-Blog powered by: https://github.com/austintoddj/canvas
-
 Development environment:
 
 1) `git clone https://github.com/gclark18/website.git`
-2) `composer install`
 3) `cp .env.dev .env`
-   
-4) `php artisan key:generate`
-3) `php artisan canvas:install`
-4) `php artisan sail:install`
-5) `php artisan storage:link`
+2) `alias sail='bash vendor/bin/sail'` (Optional)
+2) `sail composer install`
+4) `sail artisan key:generate`
+5) `sail artisan sail:install`
+
 
 To start:
 
 `./vendor/bin/sail up`
 
-Artisan commands via scale:
+Artisan commands via sail:
 
 ```bash
 # Running Artisan commands locally...
