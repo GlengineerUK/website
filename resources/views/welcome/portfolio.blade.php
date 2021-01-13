@@ -59,23 +59,22 @@
 
 @endforeach
 
-
-    @foreach($projects as $i => $project)
-        <script>
-                var quill_summary_{{$i}} = new Quill('#summary_{{$i}}', {
-                    theme: 'snow',
-                    readOnly: true,
-                    modules: {
-                        toolbar: false,
-                    }
-                });
-                var quill_content_{{$i}} = new Quill('#content_{{$i}}', {
-                    theme: 'snow',
-                    readOnly: true,
-                    modules: {
-                        toolbar: false,
-                    }
-                });
-        </script>
-    @endforeach
+@foreach($projects as $i => $project)
+    <script>
+            var quill_summary_{{$i}} = new Quill('#summary_{{$i}}', {
+                theme: 'snow',
+                readOnly: true,
+                modules: {
+                    toolbar: false,
+                }
+            });
+            var quill_content_{{$i}} = new Quill('#content_{{$i}}', {
+                theme: 'snow',
+                readOnly: true,
+                modules: {
+                    toolbar: false,
+                }
+            });
+    </script>
+@endforeach
 
