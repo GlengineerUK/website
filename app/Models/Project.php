@@ -16,7 +16,7 @@ class Project extends Model
         'summary',
         'content',
         'tags',
-        'link',
+        'link_url',
         'image_url',
     ];
 
