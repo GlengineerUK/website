@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="22f981f3-580e-4d51-aad9-e8a4e90f38e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/navigation-dropdown.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/navigation-dropdown.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome/qualifications.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome/qualifications.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +53,6 @@
         </option>
       </RecentBranches>
     </option>
-  </component>
-  <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -197,7 +193,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -231,6 +227,12 @@
       <workItem from="1610484430000" duration="4336000" />
       <workItem from="1610533242412" duration="6383000" />
       <workItem from="1610550071770" duration="1851000" />
+      <workItem from="1610582601083" duration="616000" />
+      <workItem from="1610618838151" duration="687000" />
+      <workItem from="1610619558092" duration="4372000" />
+      <workItem from="1610729695899" duration="509000" />
+      <workItem from="1610730299849" duration="1375000" />
+      <workItem from="1611658170097" duration="562000" />
     </task>
     <task id="LOCAL-00001" summary="Updated info">
       <created>1608573384331</created>
