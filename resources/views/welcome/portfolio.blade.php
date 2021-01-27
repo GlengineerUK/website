@@ -34,6 +34,8 @@
              x-transition:leave-start="opacity-100 transform scale-100"
              x-transition:leave-end="opacity-0 transform scale-90"
         >
+            <h1 class="mb-2 text-xl font-bold">{{$project->title}}</h1>
+            <a href="{{$project->link_url}}" class="text-blue-500 hover:text-blue-400">{{$project->link_url}}</a>
             <div class="">
                 <div id="content_{{$i}}" >{!! $project->content !!}</div>
             </div>
@@ -52,7 +54,7 @@
             <div class="flex {{ $i % 2 == 0 ? 'flex-col sm:flex-row' : 'sm:flex-row-reverse' }} justify-between items-center">
                 {{--Content--}}
                 <div class=" flex flex-col">
-                    <h1 class="text-xl font-bold">{{$project->title}}</h1>
+                    <h1 class="mb-2 text-xl font-bold">{{$project->title}}</h1>
                     <a href="{{$project->link_url}}" class="text-blue-500 hover:text-blue-400">{{$project->link_url}}</a>
                     <div id="summary_{{$i}}" >{!! $project->summary !!}</div>
                     <div class="flex flex-wrap my-2">

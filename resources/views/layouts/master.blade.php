@@ -22,6 +22,16 @@
         body {
             font-family: 'Nunito';
         }
+
+        html {
+            overflow-y: overlay;
+        }
+        /*overlay does not work on mozilla*/
+        @-moz-document url-prefix(){
+            html {
+                overflow-y: scroll;
+            }
+        }
     </style>
     @yield('styles')
 </head>
