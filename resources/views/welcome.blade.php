@@ -39,34 +39,32 @@
     <div class="flex flex-col  mb-16 items-center"
          x-data="{
             openTab: 3,
-            activeClasses: 'underline cursor-default',
+            activeClasses: 'cursor-default',
             inactiveClasses: 'hover:text-blue-700',
             }">
         <div class="flex flex-col sm:inline-flex sm:flex-row my-8 font-semibold text-2xl">
-            <a href="#" class="" @click="openTab = 1" :class="openTab === 1 ? activeClasses : inactiveClasses">About me</a>
-            <a href="#" class="sm:ml-8" @click="openTab = 2" :class="openTab === 2 ? activeClasses : inactiveClasses">Qualifications</a>
-            <a href="#" class="sm:ml-8" @click="openTab = 3" :class="openTab === 3 ? activeClasses : inactiveClasses">Portfolio</a>
-            <a href="#" class="sm:ml-8" @click="openTab = 4" :class="openTab === 4 ? activeClasses : inactiveClasses">Socials</a>
-            <a href="#" class="sm:ml-8" @click="openTab = 5" :class="openTab === 5 ? activeClasses : inactiveClasses">Contact</a>
+            <a href="#" class="" @click="openTab = 1" :class="openTab === 1 ? activeClasses : inactiveClasses"> <span x-show="openTab === 1">></span>About me</a>
+            <a href="#" class="sm:ml-8" @click="openTab = 2" :class="openTab === 2 ? activeClasses : inactiveClasses"><span x-show="openTab === 2">></span>Qualifications</a>
+            <a href="#" class="sm:ml-8" @click="openTab = 3" :class="openTab === 3 ? activeClasses : inactiveClasses"><span x-show="openTab === 3">></span>Portfolio</a>
+            <a href="#" class="sm:ml-8" @click="openTab = 4" :class="openTab === 4 ? activeClasses : inactiveClasses"><span x-show="openTab === 4">></span>Contact</a>
         </div>
+
         <div class="grid" style="grid-template-columns: 1fr min(93vw, 700px) 1fr;">
-            <div class="col-start-2 text-lg">
-                <div x-show="openTab === 1">
+            <div class="col-start-2 grid grid-cols-1 grid-rows-1 text-lg">
+                <div x-show.transition.duration.500ms="openTab === 1" class="col-start-1 col-end-2 row-start-1 row-end-2">
                     @include('welcome.about-me')
                 </div>
-                <div x-show="openTab === 2">
+                <div x-show.transition.duration.500ms="openTab === 2" class="col-start-1 col-end-2 row-start-1 row-end-2">
                     @include('welcome.qualifications')
                 </div>
-                <div x-show="openTab === 3">
+                <div x-show.transition.duration.500ms="openTab === 3" class="col-start-1 col-end-2 row-start-1 row-end-2">
                     @include('welcome.portfolio')
                 </div>
-                <div x-show="openTab === 4">
-                    @include('welcome.socials')
-                </div>
-                <div x-show="openTab === 5">
+                <div x-show.transition.duration.500ms="openTab === 4" class="col-start-1 col-end-2 row-start-1 row-end-2">
                     @include('welcome.contact')
                 </div>
             </div>
         </div>
+
     </div>
 @endsection

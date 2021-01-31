@@ -26,7 +26,7 @@
          class="text-sm grid grid-cols-1 grid-rows-1" >
         {{--Show full project content--}}
         <div x-show="showMore == true"
-             class="font-gray-800 right-0 top-0 col-start-1 col-end-2 row-start-1 row-end-2"
+             class="font-gray-800 col-start-1 col-end-2 row-start-1 row-end-2"
              x-transition:enter="transition ease-in duration-300"
              x-transition:enter-start="opacity-0 transform scale-90"
              x-transition:enter-end="opacity-100 transform scale-100"

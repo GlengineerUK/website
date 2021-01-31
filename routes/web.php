@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProjectController;
+use App\Mail\ContactMail;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::post('/contact', [ContactController::class, 'store']);
+
 
 Route::get('/', function () {
     $projects = App\Models\Project::published()->get();
